@@ -92,3 +92,17 @@
 # # if they choise the right number
 # else:
 #     print(f"The input value '{value}' isnt valid Please choise a numerical number from 0 = 36")
+#  # Q11
+#  # in taking the books baught this month
+# book = int(input("How many books have you baught this month? "))
+# # Evaluate the in put
+# if book <= 1:
+#     print("You get 0 points")
+# elif book <= 3:
+#     print("You get 5 points")
+# elif book <= 5:
+#     print("You get 15 points")
+# elif book <= 7:
+#     print("You get 30 points")
+# elif book > 7:
+#     print("You get  60 points")
