@@ -106,3 +106,14 @@
 #     print("You get 30 points")
 # elif book > 7:
 #     print("You get  60 points")
+# # Q13
+# #in takr the weight of the package
+# weight = int(input("What is the weight of the package? "))
+# if weight <= 2:
+#     print(f"For {weight} pounds you will have to pay 1.50$")
+# elif weight > 2 and weight < 6:
+#     print(f"For {weight} pounds you will have to pay 3.00$")
+# elif weight >= 6 and weight < 10:
+#     print(f"For {weight} pounds you will have to pay 4.00$")
+# elif weight >= 10:
+#     print(f"For {weight} pounds you will have to pay 4.75$")
