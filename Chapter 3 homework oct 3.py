@@ -42,7 +42,7 @@
 #     print("You are an adult. ")
 # Q5
 # input mass
-mass = int(input("What is your mass? "))
+#mass = int(input("What is your mass? "))
 #Conversion is weight = mass * 9.8
 # weight = mass * 9.8
 # #Evaluate weight
@@ -50,3 +50,20 @@ mass = int(input("What is your mass? "))
 #     print("Too heavy. ")
 # elif weight < 100:
 #     print("Too light")
+# Q7
+# List the primary colors
+print("The primiry color are: Red, Blue, and Yellow ")
+color1 = input("whats the first color would you like to mix? ")
+color2 = input("whats the second color would you like to mix? ")
+
+#When you mix red and blue, you get purple.
+#When you mix red and yellow, you get orange.
+#When you mix blue and yellow, you get green.
+if color1 == "red" and color2 == "blue":
+    print("You made purple!")
+elif color1 == "red" and color2 == "yellow":
+    print("You made orange!")
+elif color1 == "blue" and color2 == "yellow":
+    print("You made green!")
+else:
+    print("Please choise a primary color")
